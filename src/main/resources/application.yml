@@ -1,0 +1,13 @@
+spring:
+  thymeleaf:
+    cache: false
+  http:
+    multipart:
+      enabled: false
+  servlet:
+    multipart:
+      max-file-size: 128KB
+      max-request-size: 128KB
+wsh:
+  front:
+    ip: 23
